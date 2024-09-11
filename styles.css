@@ -1,0 +1,62 @@
+body{
+    
+    background-image: url('2d-gradient-2.png');
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading-main{
+    color: white;
+}
+.main{
+    
+    width: 800px;
+    height: 350px;
+    background-image: url('2d-gradient-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+.main-search{
+    width: 30rem;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 22px;
+}
+.btn-search{
+    padding: 20px;
+    width: 200px;
+    margin:5px;
+    font-size: 22px;
+    border-radius:5px;
+    background-color: darkgreen;
+    color: white;
+}
+.display-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wheather-city{
+    font-size: xx-large;
+    color: white;
+
+}
+.wheather-data{
+    color: white;
+    font-size: x-large;
+}

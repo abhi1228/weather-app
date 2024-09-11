@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+
+    <!-- Make the weather app containers and form here -->
+     <div class="containers" id="weather-container">
+       <h1 id="name" class="heading-main">Weather App</h1>
+       <div class="main">
+        <form id="location-form" onsubmit="getWeather(event)">
+          <input class="main-search" type="text" placeholder="Enter a city" name="location-input" id="location-input" required>
+        <button type="submit" class="btn-search" >Get Weather</button>
+
+        </form>
+        
+        <div id="weather-div"> </div> 
+       </div>
+      
+     </div>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
